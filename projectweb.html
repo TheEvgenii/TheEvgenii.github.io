@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADVENTURE</title>
+    <title>Honor Thesis</title>
     <!-- === CSS === -->
     <link rel="stylesheet" href="./styleproject.css">
 </head>
@@ -30,7 +30,7 @@
         <div class="header-content">
             <h2> Senior Honors Thesis </h2>
             <div class="line"> </div>
-            <h1>REVIEW OF METHODS AND ALGORITHMS<br /> 
+            <h1 >REVIEW OF METHODS AND ALGORITHMS<br /> 
                 FOR SEARCHING AN OBJECT IN IMAGES<br /> 
                 AND ON A VIDEO DATA STREAM IN<br /> 
                 VARIOUS SITUATIONS
@@ -40,12 +40,77 @@
     </header>
 
     <!-- == Problem Statement == -->
-    <section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1 class="gradient-text">What is the best way to coordinate recordings between cameras?</h1>
+            <div class="line"></div>
+            <p> As well as </p>
+            <p> Overviewing the basic video processing  </p>
+            <p> techniques that allow for detection of objects. </p>
+            <h2><br />  What type of method and algorithms exists in computer vision?</h2>
+            <h2> Witch one are the best ones?</h2>
+            <a href="#" class="cnt">Learn More</a>
+        </div>
+
+    </section>
+
+    <!-- == Data Collection and Analysis== -->
+    <section class="events">
         <div class="title">
-            <h1>Problem Statement</h1>
+            <h1 class="gradient-text">Data Collection and Analysis</h1>
             <div class="line"></div>
         </div>
+        <div class="row">
+            <div class="col">
+                <img src="./images/Template Mathing.png" alt="">
+                <h4>Template Matching Probability map</h4>
+                <p>Require full pixel precision according to the pattern in the target image</p>
+                <a href="#" class="cnt">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./images/DanceOprical.png" alt="">
+                <h4>Dense optical flow</h4>
+                <p>Provided conditions are used for each pixel of the current image</p>
+                <a href="#" class="cnt">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./images/BackGroundSubst.png" alt="">
+                <h4>Background subtraction</h4>
+                <p>Updated regularly to take into account changes</p>
+                <a href="#" class="cnt">Learn More</a>
+            </div>
+        </div>
     </section>
+
+    <!-- == Findings overview== -->
+    <section class="events">
+        <div class="title">
+            <h1 class="gradient-text">Findings overview</h1>
+            <div class="line"></div>
+            <h4>The memory footprint of 24/7 recording in places where there isn't a lot of movement can make it problematic to find a specific moment when viewing video data. Therefore, using the correct method and protocol to deal with various situations with video surveillance cameras can facilitate and improve the surveillance work significantly, as well as reduce the recording of unnecessary material.</h4>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./images/templateM.png" alt="">
+                <h4>Template Matching Probability map</h4>
+                <p>Require full pixel precision according to the pattern in the target image</p>
+                <a href="#" class="cnt">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./images/I-10Houston.OpticalFlow.png" alt="">
+                <h4>Dense optical flow</h4>
+                <p>Provided conditions are used for each pixel of the current image</p>
+                <a href="#" class="cnt">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./images/GMG.png" alt="">
+                <h4>Background subtraction</h4>
+                <p>Updated regularly to take into account changes</p>
+                <a href="#" class="cnt">Learn More</a>
+            </div>
+        </div>
+    </section>
+
 
     <script>
         const menuBtn = document.querySelector('.menu-btn')
