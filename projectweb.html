@@ -92,23 +92,71 @@
         <div class="row">
             <div class="col">
                 <img src="./images/templateM.png" alt="">
-                <h4>Template Matching Probability map</h4>
-                <p>Require full pixel precision according to the pattern in the target image</p>
+                <h4>Template Matching</h4>
+                <p>The slightest mismatch in light, gamma, or size will result missing recognition functionality</p>
                 <a href="#" class="cnt">Learn More</a>
             </div>
             <div class="col">
                 <img src="./images/I-10Houston.OpticalFlow.png" alt="">
                 <h4>Dense optical flow</h4>
-                <p>Provided conditions are used for each pixel of the current image</p>
+                <p>Use comparisons of two consecutive frames to recognize the shift of each point.</p>
                 <a href="#" class="cnt">Learn More</a>
             </div>
             <div class="col">
                 <img src="./images/GMG.png" alt="">
                 <h4>Background subtraction</h4>
-                <p>Updated regularly to take into account changes</p>
+                <p>Need to wait for a certain number of frames so that the algorithm can subtract the frame rate.</p>
                 <a href="#" class="cnt">Learn More</a>
             </div>
         </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Cameras opposite each other</h1>
+                <div class="line"></div>
+                <h2>Left Camera</h2>
+                <p>Detected movement, which helped to start filming two cameras, as well as send a notification to the proctor</p><br /> 
+                <h2>Right Camera</h2>
+                <p>Start recording after receiving info from the left camera about the detected object.</p>
+                <p>All this is possible due to the fact that we have marked the field for which the cameras should follow. As soon as there is movement in this field, the technology stores the data and waits for it to exceed the norm. Then the task of capturing and sending notifications will follow.</p>
+                <a href="#" class="cnt">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./images/left1.png" alt="">
+                    <img src="./images/right1.png" alt="">
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="tours">
+        <div class="row">
+            <div class="col image-col">
+                <div class="image-gallery2">
+                    <img src="./images/2expbothmovement.png" alt="">
+                </div>
+            </div>
+            <div class="col content-col">
+                <h1>Cameras at an angle of 90 degrees</h1>
+                <div class="line"></div>
+                <p>The right camera is sideways in this situation, as it is directed towards the entrance to the apartment. The recording will not occur until the cameras receive data about a moving object in the frame. If a moving object disappears from the field of view of two cameras, then the countdown starts from 1-30 seconds. Both cameras will then enter non-recording mode.
+                </p>
+                <a href="#" class="cnt">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Contact me:</p>
+        <p>elitvino@cougarnet.uh.edu</p>
     </section>
 
 
@@ -120,6 +168,7 @@
             navlinks.classList.toggle('mobile-menu')
         })
     </script>
+
 
 
 </body>
